@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no"/>
+        <title>Document</title>
+        <link href="./assets/bootstrap/bootstrap5.min.css" rel="stylesheet" type="text/css">
+        <link href="./assets/css/style.css" rel="stylesheet" type="text/css"> 
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
+    
+
+    </head>
+    <body class="position-relative">
+
+        <!--animeC-->
+        <div id="premiereSection" class="bg-dark position-absolute text-white d-flex justify-content-center align-items-center">
+            <h3  class="fw-bold titreChargement">AGENCE PARADOXE</h3>
+            <div></div>
+        </div>
+
+       
+    <!-- AffichageMenuBurger-->
+     
+        <section id="fond"  class="d-flex justify-content-end position-relative active" data-resize = "resize0">
+            <!--animeC-->
+            <div id="carreBlanc" class="bg-white position-absolute">
+            </div>
+
+            <!--SECTION GAUCHE -->
+            <div id="sectionGauche" class="position-relative">
+                <div class="d-flex flex-column justify-content-between childSectionGauche">
+                    <nav class="d-none d-md-flex flex-md-column fw-bold  ms-md-3 navPc">
+                        <a class="lien" data-id="1" >Accueil</a>
+                        <a class="lien" data-id="2" >Contact</a>
+                        <a class="lien" data-id="3" >Prestations</a>
+                        <a class="lien" data-id="4" >Portefolio</a>
+                        <a class="lien" data-id="5" >Histoire</a>
+                    </nav>
+
+                    <div class="d-md-flex justify-content-end d-none">
+                        <div class="cd__unit w-100">
+                            <div class="cd__digits text-white w-100">
+                                <div class="cd__digit arret w-100 text-end" data-col>
+                                    <div class="arret prev motPrev titrePrincipal mot" data-pos="prev">AGENCE</div>
+                                    <div class="arret next motNext titrePrincipal" data-pos="next">AGENCE</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--RESPONSIVE-->
+                <div class="d-sm-none text-white ms-3 blResponsive">
+                <h1 class="fw-bold hResponsive">Agence <br> PARADOXE</h1>
+                <p class="pResponsive">Agence web sur <span class="fw-bold">Montauban</span> <br> et <span class="fw-bold">Toulouse</span></p>
+            </div>
+            <div class="d-sm-none text-white ms-1 d-flex align-items-center bl2Responsive">
+                    <div class="w-75 d-flex justify-content-center align-items-center">
+                        <div class="bg-white child2Respon"></div>
+                    </div>
+                    <div class="w-25 d-flex flex-column align-items-end pe-3 reseauRespon">
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram instaRes"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+            </div>
+            
+            <!----------------------------------------------------------->
+            <div class="w-100 d-sm-flex justify-content-end align-items-end position-relative animeOpacBas d-none">
+                <div class="cd__unit">
+                        <div class="cd__digits text-white ms-1">
+                            <div class="cd__digit" data-col>
+                                <div data-pos="prev">0</div>
+                            </div>
+                            <div class="cd__digit arret" data-col>
+                                <div class="arret prev nombrePrev" data-pos="prev">0</div>
+                                <div class="arret next nombreNext" data-pos="next">0</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="barreHorizontal" class="position-absolute animeOpac d-none d-md-block"></div>
+                <div id="barreVertical" class="position-absolute animeOpac d-none d-md-block"></div>
+
+            </div>
+
+            <!--animeC-->
+            <div class="position-relative ">
+                <p id="text" class=" mb-0 fw-bold mb-0 position-absolute mot titrePrincipal prums">PARADOXE.</p>
+            </div>
+
+            <!-- SECTION DROITE -->
+            <div id="sectionDroite" class="d-md-flex flex-column d-none">
+                <div class="blend-mode  d-flex flex-column justify-content-between premiereSectionDroite" >
+                    <div id="divBurgerDesktop" class="d-flex justify-content-end animeOpac"></div>
+                    <div class="seconds">
+                        <p id="text" class=" mb-0 fw-bold mb-0">PARADOXE.</p>
+                    </div>
+                </div>
+                
+                <div id="autre" class="premiereSectionDroite">
+                    <div class="position-relative animeOpac inde">
+                        <div class="position-absolute d-flex flex-column childAutre">
+                            <a href="" class="text-dark lienReseau"><i class="fab fa-twitter reseauAccueil"></i></a>
+                            <a href="" class="text-dark lienReseau" style="margin: 2vmin 0"><i class="fab fa-instagram reseauAccueil"></i></a>
+                            <a href="" class="text-dark lienReseau"><i class="fab fa-linkedin-in reseauAccueil"></i></a>
+                        </div>
+                    </div>
+                    <div class="blP animeOpac">
+                        <p>Agence web sur <strong>Montauban</strong> <br> et <strong>Toulouse.</strong></p>
+                    </div>
+                    <div class="d-flex justify-content-center p-0 w-100 ms-0 animeOpac">
+                        <div class=" p-0 w-75">
+                            <p class="border-start border-dark border-3 ps-2 m-0 autrePresente">
+                                Agence web spécialisée dans la création de sites vitrines,
+                                sites e-commerce et création d'univers graphique l'agence
+                                web paradoxe vous accompagne pour développer votre présence
+                                sur internet de manière efficace et vous permettre d'accroitre
+                                votre activité.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex justify-content-end m-0 animeOpacBas stylOpac">
+                        <div class="barreVerDroite"></div>
+                        <p class=" fw-bold text-center mt-1 m-0">scroll</p>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        
+        <section id="maquettePeinture" data-resize = "resize1" class="row justify-content-center align-items-center m-0" >
+            <div class="position-relative col-7">
+                <div class="childMaquette">
+                    <img id="imagePath" class="position-absolute"  src="assets/img/agence.png">
+                    <svg id="animePath" viewBox="0 0 4600 3126" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+                        <path id="path" d="M1281.709814,753.513866c196.847057-712.530074,1294.98992-637.077913,2003.075143-71.544595c209.221246,167.10077,379.777699,166.137335,573.927853,206.828581c283.368009,59.390101,459.372103,671.322184,195.358557,1320.618561-96.905424,238.322396-549.436412,199.270151-941.890516,140.371678-209.242604-31.402576-467.0676-110.621963-675.002779,7.250299-230.683163,130.767417-458.714674,138.018808-594.745745,114.377299-920.604749-159.99643-765.316544-975.84275-560.722513-1717.901823Z" transform="translate(.000001 0)"  stroke="white" stroke-width="12"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="d-flex flex-column justify-content-center align-items-center mx-auto presenteMaquette">
+                    <h1 id="titleMaquette" class="fw-bold text-white m-0">Votre Agence !</h1>
+                    <p class=" text-white m-0 text-left paraMaquette" style="padding-left: 2vmin;">L'Agence Paradoxe c'est une équipe de passionnés spécialistes dans la création de contenus web. Que ce soit la création de sites vitrines ou marchands mais aussi la création de contenues graphiques notre équipe s'investit dans chaque projet pour vous fournir la meilleure prédation possible et ainsi propulser votre site web. Nous stimulons la croissance de votre entreprise en rendant votre site web plus attrayant.</p>
+                    <div class="d-flex justify-content-center align-items-center " style="margin-top: 3.5vmin;margin-left: 4.2vmin;">
+                        <!--<a id="decouvrirAgence" class=' border border-white text-white' href='https://google.com'>Découvrir</a>-->
+                        
+
+                           <!-- <a href="#" class="button-with-arrow">
+                                Découvrir
+                            </a>-->
+  
+                            <a id="btnMaquette" href="#"><span id="spanMaquette"></span>Découvrir</a>
+                        <!--<iframe src="https://giphy.com/embed/U1gv0Ak2rI25bzMRrI" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--Creation-->
+        <section class="m-0" id="create" data-resize = "resize2">
+            <div class="d-flex h-100" style="background-color: #E6E6E6;">
+                <div class="col-8" style="background-color: #E6E6E6;">
+                    
+                    <div style="width: 55%;margin-top: 5vmin;margin-left: 20vmin;">
+                        <div>
+                            <h3 class="fw-bold">Nos Prestations</h3>
+                            <div class="bg-dark" style="height: 0.5vmin;width: 38vmin;"></div>
+                        </div>
+    
+                        <div class="position-relative d-flex" style="overflow: hidden;height: 32vmin!important;margin-top: 10vmin;">
+                            
+                            <span  class="fw-bold policeEcrite" style="font-size: 35vmin;text-shadow: 1vmin 1vmin 2vmin rgb(0, 0, 0);padding-left: 5vmin;color: #E6E6E6;margin-top:-10vmin ;">0</span>
+                            <div id="sliderCreation" class="d-inline-flex flex-column" style="margin-top:-10vmin ;"> 
+                                <span id="numberCreation" class="fw-bold firstBoxNumber policeEcrite" style="font-size: 35vmin;text-shadow: 0vmin 1vmin 1.5vmin rgb(0, 0, 0);color: #E6E6E6;">5</span>
+                                <span id="numberCreation" class="fw-bold policeEcrite" style="font-size: 35vmin;text-shadow: 0vmin 1vmin 1.5vmin rgb(0, 0, 0);color: #E6E6E6;">1</span>
+                                <span id="numberCreation" class="fw-bold policeEcrite" style="font-size: 35vmin;text-shadow: 0vmin 1vmin 1.5vmin rgb(0, 0, 0);color: #E6E6E6;">2</span>
+                                <span id="numberCreation" class="fw-bold policeEcrite" style="font-size: 35vmin;text-shadow: 0vmin 1vmin 1.5vmin rgb(0, 0, 0);color: #E6E6E6;">3</span>
+                                <span id="numberCreation" class="fw-bold policeEcrite" style="font-size: 35vmin;text-shadow: 0vmin 1vmin 1.5vmin rgb(0, 0, 0);color: #E6E6E6;">4</span>
+                                <span id="numberCreation" class="fw-bold policeEcrite" style="font-size: 35vmin;text-shadow: 0vmin 1vmin 1.5vmin rgb(0, 0, 0);color: #E6E6E6;">5</span>
+                                <span id="numberCreation" class="fw-bold lastBoxNumber policeEcrite" style="font-size: 35vmin;text-shadow: 0vmin 1vmin 1.5vmin rgb(0, 0, 0);color: #E6E6E6;">1</span>
+                                 
+                            </div>
+                              
+                            <p id="titreCreation" class="position-absolute fw-bold policeEcrite" style="font-size: 10vmin;top:40%;">Site vitrine</p>
+                        </div>
+                        <div style="margin-top: 1vmin;">
+                            <p id="paraCreation" style="font-size: 2vmin;margin-bottom: 4vmin;">Texte 1</p>
+                            <!--<a class="bg-dark rounded text-white " style="padding: 0.8vmin 7vmin;font-size: 3vmin;">Découvrir</a>-->
+                            <div class="button-container-1">
+                                <span class="mas">Découvrir</span>
+                              <a id='work' class="text-center" href="#" name="Hover">Découvrir</a>
+                            </div>
+                          
+                            
+                        </div>    
+                    </div>
+                </div>
+                <div class="col-4 position-relative" id="prestaDroite" style="background-color: #1A1A1A;">
+                    <div id="containerSliderC" class="position-absolute" style="height: 65.5vmin;width: 50vmin;left: -37%;top: 16%;overflow: hidden;">
+                        <div id="sliderCreation">
+                            <img id="imgCreation" data-slide="5" class="firstBox"   style="width: 100%;height: 66vmin;" src="./assets/img/optimisation.jpg">
+                            <img id="imgCreation" data-slide="1"  class="lastBox recupe"  style="width: 100%;height:66vmin;" src="./assets/img/site_vitrine.jpg">
+                            <img id="imgCreation" data-slide="2"  style="width: 100%;height: 66vmin;" src="./assets/img/e-commerce.jpg">
+                            <img id="imgCreation" data-slide="3"  style="width: 100%;height: 66vmin;" src="./assets/img/creation_graphique.jpg">
+                            <img id="imgCreation" data-slide="4"  style="width: 100%;height: 66vmin;" src="./assets/img/refonte.jpg">
+                            <img id="imgCreation" data-slide="5"   style="width: 100%;height: 66vmin;" src="./assets/img/optimisation.jpg">
+                            <img id="imgCreation" data-slide="1"  class="lastBox"  style="width: 100%;height: 66vmin;" src="./assets/img/site_vitrine.jpg">
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex flex-column align-items-center justify-content-center h-100" style="padding-left: 6vmin;">
+                        <div>
+                            <button id="upLong"><i class="prev fa-solid fa-up-long " style="font-size:8vmin;color: white;"></i></button>
+                        </div>
+                        <div class="d-flex flex-column align-items-start" style="font-size: 2.5vmin;padding: 5vmin 0;margin-left: 21vmin;">
+                            <button  class="btnPresta" data-position="1" style="color:white">01. Site vitrine</button>
+                            <button class="btnPresta" data-position="2" style="color: darkgray;">02. E-commerce</button>
+                            <button class="btnPresta" data-position="3" style="color: darkgray;">03. Graphique</button>
+                            <button class="btnPresta" data-position="4" style="color: darkgray;">04. Refonte</button>
+                            <button class="btnPresta" data-position="5" style="color: darkgray;">05. Optimisation</button>
+                        </div>
+                        <div>
+                            <button id="downLong"><i class="nexte fa-solid fa-down-long" style="font-size:8vmin;color:white"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+       
+
+        <section id="portfolio" data-resize = "resize7" class="bg-white position-relative " style="width: 100vw;height: 100vh;">
+
+           <button class="position-absolute" style="top:40%;z-index: 1;left: 1%" id="btnPrecPort"><i class="fa-solid fa-chevron-left" style="font-size: 5vmin;"></i></button>
+           <button class="position-absolute" style="top:40%;right: 1%;z-index: 1;" id="btnSuiPort"><i class="fa-solid fa-chevron-right" style="font-size: 5vmin;"></i></button>
+            <div class="d-flex" style="width: 600vw;height: 100%;" id="sliderPortfolio">
+                <div class="row m-0 justify-content-between boxPortfolio first" style="width: 200vw;height: 100vh;" id="fourC">
+                    <div class="col-4 d-flex flex-column justify-content-end " >
+                       
+                        <div style="top:20%;padding-left: 14vmin;z-index: 1;" class="position-absolute d-flex align-items-end panel__content">
+                            <span class="fw-bold" style="margin-bottom: 1.7vmin;font-size: 3vmin;">04.</span>
+                            <div class="" style="overflow: hidden;">
+                                <div class="titreProjet">
+                                    <h4 class="fw-bold m-0" style="font-size: 18vmin;color: black;font-family: playfairRegule;margin-left: 2vmin!important">Projet n°4</h4>
+    
+                                </div>
+    
+                            </div>
+                        </div>
+                        <p class="apparitionProjetO" style="font-size: 2.2vmin;margin-bottom: 10vmin;font-family: playfairRegule;padding: 0 10vmin 0 14vmin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quis pariatur, voluptatum vitae doloremque at explicabo vero cumque ea sequi rerum quas facere libero unde fugit tenetur! Similique, commodi esse.
+                       </p>
+                        <div style="padding: 0 14vmin 14vmin 14vmin;">
+                            <!--<a class="bg-dark text-white rounded fw-bold apparitionProjetO" style="width: fit-content;padding: 1.2vmin 8vmin;font-size: 2.6vmin;">Découvrir.</a>-->
+                            <div class="button-container-2">
+                                <span class="mas">Découvrir</span>
+                              <a  id="work3" name="Hover">Découvrir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex align-items-center panel__img-col" style="margin-left: 6vmin;flex-basis: 34%;">
+                        <img class="w-100 " src="./assets/img/reed-geiger-J13dJKbkdyg-unsplash(2).jpg" style="height: 85%!important;">
+                    </div>
+                    <div class="col-3 d-flex flex-column justify-content-center align-items-center " style="font-size: 2.5vmin;margin-right: 7vmin;">
+                        <div  style="width: 60%;overflow: hidden;">
+                            <div class="d-flex flex-column ">
+                                <span class="fw-bold titreProjet">Style</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">Site vitrine</span>
+                            </div>
+                            
+                        
+                        </div>
+                        <div  style="width: 60%;margin: 4vmin 0;overflow: hidden;">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold titreProjet">Délais</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">3 semaines</span>
+                            </div>
+                            
+                        
+                        </div>
+                        <div  style="width: 60%;overflow: hidden;">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold titreProjet">Technologie</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">Wordpress, Html, Css, Javascript</span>
+                            </div>
+                            
+                        
+                        </div>
+                     
+                    </div>
+                    
+                </div>
+                <div class="row m-0 justify-content-between boxPortfolio" style="width: 200vw;height: 100%;" id="firstC">
+                    <div class="col-4 d-flex flex-column justify-content-end " >
+                       
+                        <div style="top:20%;padding-left: 14vmin;z-index: 1;" class="position-absolute d-flex align-items-end panel__content">
+                            <span class="fw-bold" style="margin-bottom: 1.7vmin;font-size: 3vmin;">01.</span>
+                            <div class="" style="overflow: hidden;">
+                                <div class="titreProjet">
+                                    <h4 class="fw-bold m-0" style="font-size: 18vmin;color: black;font-family: playfairRegule;margin-left: 2vmin!important">Projet n°1</h4>
+    
+                                </div>
+    
+                            </div>
+                        </div>
+                        <p class="apparitionProjetO" style="font-size: 2.2vmin;margin-bottom: 10vmin;font-family: playfairRegule;padding: 0 10vmin 0 14vmin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quis pariatur, voluptatum vitae doloremque at explicabo vero cumque ea sequi rerum quas facere libero unde fugit tenetur! Similique, commodi esse.
+                       </p>
+                        <div style="padding: 0 14vmin 14vmin 14vmin;">
+                            <!--<a class="bg-dark text-white rounded fw-bold apparitionProjetO" style="width: fit-content;padding: 1.2vmin 8vmin;font-size: 2.6vmin;">Découvrir.</a>-->
+                            <div class="button-container-2">
+                                <span class="mas">Découvrir</span>
+                              <a  id="work3" name="Hover">Découvrir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex align-items-center panel__img-col" style="margin-left: 6vmin;flex-basis: 34%;">
+                        <img class="w-100 " src="./assets/img/reed-geiger-J13dJKbkdyg-unsplash(2).jpg" style="height: 85%!important;">
+                    </div>
+                    <div class="col-3 d-flex flex-column justify-content-center align-items-center " style="font-size: 2.5vmin;margin-right: 7vmin;">
+                        <div  style="width: 60%;overflow: hidden;">
+                            <div class="d-flex flex-column ">
+                                <span class="fw-bold titreProjet">Style</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">Site vitrine</span>
+                            </div>
+                            
+                        
+                        </div>
+                        <div  style="width: 60%;margin: 4vmin 0;overflow: hidden;">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold titreProjet">Délais</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">3 semaines</span>
+                            </div>
+                            
+                        
+                        </div>
+                        <div  style="width: 60%;overflow: hidden;">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold titreProjet">Technologie</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">Wordpress, Html, Css, Javascript</span>
+                            </div>
+                            
+                        
+                        </div>
+                     
+                    </div>
+                </div>
+    
+                <div class="row m-0 justify-content-between boxPortfolio" style="width: 200vw;height: 100%;"  id="secondC">
+                    <div class="col-4 d-flex flex-column justify-content-end " >
+                       
+                        <div style="top:20%;padding-left: 14vmin;z-index: 1;" class="position-absolute d-flex align-items-end panel__content">
+                            <span class="fw-bold" style="margin-bottom: 1.7vmin;font-size: 3vmin;">02.</span>
+                            <div class="" style="overflow: hidden;">
+                                <div class="titreProjet">
+                                    <h4 class="fw-bold m-0" style="font-size: 18vmin;color: black;font-family: playfairRegule;margin-left: 2vmin!important">Projet n°2</h4>
+    
+                                </div>
+    
+                            </div>
+                        </div>
+                        <p class="apparitionProjetO" style="font-size: 2.2vmin;margin-bottom: 10vmin;font-family: playfairRegule;padding: 0 10vmin 0 14vmin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quis pariatur, voluptatum vitae doloremque at explicabo vero cumque ea sequi rerum quas facere libero unde fugit tenetur! Similique, commodi esse.
+                       </p>
+                        <div style="padding: 0 14vmin 14vmin 14vmin;">
+                            <div class="button-container-2">
+                                <span class="mas">Découvrir</span>
+                              <a  id="work3" name="Hover">Découvrir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex align-items-center panel__img-col" style="margin-left: 6vmin;flex-basis: 34%;">
+                        <img class="w-100 " src="./assets/img/reed-geiger-J13dJKbkdyg-unsplash(2).jpg" style="height:85%!important;">
+                    </div>
+                    <div class="col-3 d-flex flex-column justify-content-center align-items-center " style="font-size: 2.5vmin;margin-right: 7vmin;">
+                        <div  style="width: 60%;overflow: hidden;">
+                            <div class="d-flex flex-column ">
+                                <span class="fw-bold titreProjet">Style</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">Site vitrine</span>
+                            </div>
+                            
+                        
+                        </div>
+                        <div  style="width: 60%;margin: 4vmin 0;overflow: hidden;">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold titreProjet">Délais</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">3 semaines</span>
+                            </div>
+                            
+                        
+                        </div>
+                        <div  style="width: 60%;overflow: hidden;">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold titreProjet">Technologie</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">Wordpress, Html, Css, Javascript</span>
+                            </div>
+                            
+                        
+                        </div>
+                     
+                    </div>
+                </div>
+    
+                <div class="row m-0 justify-content-between boxPortfolio" style="width: 200vw;height: 100vh;" id="thirdC">
+                    <div class="col-4 d-flex flex-column justify-content-end " >
+                       
+                        <div style="top:20%;padding-left: 14vmin;z-index: 1;" class="position-absolute d-flex align-items-end panel__content">
+                            <span class="fw-bold" style="margin-bottom: 1.7vmin;font-size: 3vmin;">03.</span>
+                            <div class="" style="overflow: hidden;">
+                                <div class="titreProjet">
+                                    <h4 class="fw-bold m-0" style="font-size: 18vmin;color: black;font-family: playfairRegule;margin-left: 2vmin!important">Projet n°3</h4>
+    
+                                </div>
+    
+                            </div>
+                        </div>
+                        <p class="apparitionProjetO" style="font-size: 2.2vmin;margin-bottom: 10vmin;font-family: playfairRegule;padding: 0 10vmin 0 14vmin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quis pariatur, voluptatum vitae doloremque at explicabo vero cumque ea sequi rerum quas facere libero unde fugit tenetur! Similique, commodi esse.
+                       </p>
+                        <div style="padding: 0 14vmin 14vmin 14vmin;">
+                            <div class="button-container-2">
+                                <span class="mas">Découvrir</span>
+                              <a  id="work3" name="Hover">Découvrir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex align-items-center panel__img-col" style="margin-left: 6vmin;flex-basis: 34%;">
+                        <img class="w-100 " src="./assets/img/reed-geiger-J13dJKbkdyg-unsplash(2).jpg" style="height: 85%!important;">
+                    </div>
+                    <div class="col-3 d-flex flex-column justify-content-center align-items-center " style="font-size: 2.5vmin;margin-right: 7vmin;">
+                        <div  style="width: 60%;overflow: hidden;">
+                            <div class="d-flex flex-column ">
+                                <span class="fw-bold titreProjet">Style</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">Site vitrine</span>
+                            </div>
+                            
+                        
+                        </div>
+                        <div  style="width: 60%;margin: 4vmin 0;overflow: hidden;">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold titreProjet">Délais</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">3 semaines</span>
+                            </div>
+                            
+                        
+                        </div>
+                        <div  style="width: 60%;overflow: hidden;">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold titreProjet">Technologie</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">Wordpress, Html, Css, Javascript</span>
+                            </div>
+                            
+                        
+                        </div>
+                     
+                    </div>
+                </div>
+    
+                <div class="row m-0 justify-content-between boxPortfolio" style="width: 200vw;height: 100vh;" id="fourC">
+                    <div class="col-4 d-flex flex-column justify-content-end " >
+                       
+                        <div style="top:20%;padding-left: 14vmin;z-index: 1;" class="position-absolute d-flex align-items-end panel__content">
+                            <span class="fw-bold" style="margin-bottom: 1.7vmin;font-size: 3vmin;">04.</span>
+                            <div class="" style="overflow: hidden;">
+                                <div class="titreProjet">
+                                    <h4 class="fw-bold m-0" style="font-size: 18vmin;color: black;font-family: playfairRegule;margin-left: 2vmin!important">Projet n°4</h4>
+    
+                                </div>
+    
+                            </div>
+                        </div>
+                        <p class="apparitionProjetO" style="font-size: 2.2vmin;margin-bottom: 10vmin;font-family: playfairRegule;padding: 0 10vmin 0 14vmin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quis pariatur, voluptatum vitae doloremque at explicabo vero cumque ea sequi rerum quas facere libero unde fugit tenetur! Similique, commodi esse.
+                       </p>
+                        <div style="padding: 0 14vmin 14vmin 14vmin;">
+                            <div class="button-container-2">
+                                <span class="mas">Découvrir</span>
+                              <a  id="work3" name="Hover">Découvrir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex align-items-center panel__img-col" style="margin-left: 6vmin;flex-basis: 34%;">
+                        <img class="w-100 " src="./assets/img/reed-geiger-J13dJKbkdyg-unsplash(2).jpg" style="height: 85%!important;">
+                    </div>
+                    <div class="col-3 d-flex flex-column justify-content-center align-items-center " style="font-size: 2.5vmin;margin-right: 7vmin;">
+                        <div  style="width: 60%;overflow: hidden;">
+                            <div class="d-flex flex-column ">
+                                <span class="fw-bold titreProjet">Style</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">Site vitrine</span>
+                            </div>
+                            
+                        
+                        </div>
+                        <div  style="width: 60%;margin: 4vmin 0;overflow: hidden;">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold titreProjet">Délais</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">3 semaines</span>
+                            </div>
+                            
+                        
+                        </div>
+                        <div  style="width: 60%;overflow: hidden;">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold titreProjet">Technologie</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">Wordpress, Html, Css, Javascript</span>
+                            </div>
+                            
+                        
+                        </div>
+                     
+                    </div>
+                    
+                </div>
+                <div class="row m-0 justify-content-between boxPortfolio last" style="width: 200vw;height: 100%;" id="firstC">
+                    <div class="col-4 d-flex flex-column justify-content-end " >
+                       
+                        <div style="top:20%;padding-left: 14vmin;z-index: 1;" class="position-absolute d-flex align-items-end panel__content">
+                            <span class="fw-bold" style="margin-bottom: 1.7vmin;font-size: 3vmin;">01.</span>
+                            <div class="" style="overflow: hidden;">
+                                <div class="titreProjet">
+                                    <h4 class="fw-bold m-0" style="font-size: 18vmin;color: black;font-family: playfairRegule;margin-left: 2vmin!important">Projet n°1</h4>
+    
+                                </div>
+    
+                            </div>
+                        </div>
+                        <p class="apparitionProjetO" style="font-size: 2.2vmin;margin-bottom: 10vmin;font-family: playfairRegule;padding: 0 10vmin 0 14vmin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quis pariatur, voluptatum vitae doloremque at explicabo vero cumque ea sequi rerum quas facere libero unde fugit tenetur! Similique, commodi esse.
+                       </p>
+                        <div style="padding: 0 14vmin 14vmin 14vmin;">
+                            <!--<a class="bg-dark text-white rounded fw-bold apparitionProjetO" style="width: fit-content;padding: 1.2vmin 8vmin;font-size: 2.6vmin;">Découvrir.</a>-->
+                            <div class="button-container-2">
+                                <span class="mas">Découvrir</span>
+                              <a  id="work3" name="Hover">Découvrir</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex align-items-center panel__img-col" style="margin-left: 6vmin;flex-basis: 34%;">
+                        <img class="w-100 " src="./assets/img/reed-geiger-J13dJKbkdyg-unsplash(2).jpg" style="height: 85%!important;">
+                    </div>
+                    <div class="col-3 d-flex flex-column justify-content-center align-items-center " style="font-size: 2.5vmin;margin-right: 7vmin;">
+                        <div  style="width: 60%;overflow: hidden;">
+                            <div class="d-flex flex-column ">
+                                <span class="fw-bold titreProjet">Style</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">Site vitrine</span>
+                            </div>
+                            
+                        
+                        </div>
+                        <div  style="width: 60%;margin: 4vmin 0;overflow: hidden;">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold titreProjet">Délais</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">3 semaines</span>
+                            </div>
+                            
+                        
+                        </div>
+                        <div  style="width: 60%;overflow: hidden;">
+                            <div class="d-flex flex-column">
+                                <span class="fw-bold titreProjet">Technologie</span>
+                                <div class="ligne" style="height: 0.3vmin;background-color: #DEE2E6;"></div>
+                                <span class="titreProjet" style="margin-top: 1vmin;">Wordpress, Html, Css, Javascript</span>
+                            </div>
+                            
+                        
+                        </div>
+                     
+                    </div>
+                </div>
+    
+            </div>
+            
+
+           <!-- <div class="row m-0 justify-content-between">
+                <div class="col-4 d-flex flex-column justify-content-end " >
+                    
+                    <div style="top:24%;padding-left: 14vmin;z-index: 1;" class="position-absolute d-flex align-items-end panel__content">
+                        <span class="fw-bold" style="margin-bottom: 1.7vmin;font-size: 3vmin;">01.</span>
+                        <h4 class="fw-bold m-0" style="font-size: 18vmin;color: black;font-family: playfairRegule;margin-left: 2vmin!important">Projet n°3</h4>
+                    </div>
+                    <p style="font-size: 2.2vmin;margin-bottom: 7vmin;font-family: playfairRegule;padding: 0 0 0 14vmin">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quis pariatur, voluptatum vitae doloremque at explicabo vero cumque ea sequi rerum quas facere libero unde fugit tenetur! Similique, commodi esse.
+                    Animi deleniti magnam doloribus neque ddddddd</p>
+                    <div style="padding: 0 14vmin 14vmin 14vmin;">
+                        <a class="bg-dark text-white rounded fw-bold" style="width: fit-content;padding: 1.2vmin 8vmin;font-size: 2.6vmin;">Découvrir.</a>
+                    </div>
+                </div>
+                <div class="col-4 d-flex align-items-center panel__img-col" style="margin-left: 6vmin;flex-basis: 34%;">
+                    <img class="w-100 " src="./assets/img/reed-geiger-J13dJKbkdyg-unsplash(2).jpg" style="height: 90%!important;">
+                </div>
+                <div class="col-3 d-flex flex-column justify-content-center align-items-center " style="font-size: 2.5vmin;margin-right: 7vmin;">
+                    <div class="d-flex flex-column" style="width: 60%;margin: 4vmin 0;">
+                        <span class="fw-bold border-bottom">Style</span>
+                        <span>Site vitrine</span>
+                    
+                    </div>
+                    <div class="d-flex flex-column" style="width: 60%;margin-bottom: 4vmin ">
+                        <span class="fw-bold border-bottom">Délais</span>
+                        <span>3 semaines</span>
+                    
+                    </div>
+                    <div class="d-flex flex-column" style="width: 60%;">
+                        <span class="fw-bold border-bottom">Technologie</span>
+                        <span>Wordpress, Html, Css, Javascript</span>
+                    </div>
+                </div>
+            </div>-->
+        </section>
+        
+        
+     
+        
+        
+    <!--<button class="order bg-white rounded-3 border-0"><span class="default fw-bold">Envoyer</span><span class="success fw-bold">Order Placed
+        <svg viewbox="0 0 12 10">
+        <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+        </svg></span>
+    <div class="box"></div>
+    <div class="drone">
+        <svg class="wing left">
+        <use xlink:href="#droneWing"></use>
+        </svg>
+        <svg class="wing right">
+        <use xlink:href="#droneWing"></use>
+        </svg>
+        <svg class="body">
+        <use xlink:href="#droneBody"></use>
+        </svg>
+        <svg class="grab">
+        <use xlink:href="#droneGrab"></use>
+        </svg>
+    </div>
+    </button>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 14" id="droneBody" fill="currentColor" stroke="none">
+        <path d="M38,0.5 C38,0.223857625 38.2238576,5.07265313e-17 38.5,0 C38.7761424,-5.07265313e-17 39,0.223857625 39,0.5 L39,4 C39.5522847,4 40,4.44771525 40,5 L40,6 L40.5,6 C41.3284271,6 42,6.67157288 42,7.5 C42,8.32842712 41.3284271,9 40.5,9 L30,9 L30,9.86761924 C30,10.5701449 29.6314023,11.2211586 29.0289915,11.5826051 L25.4750236,13.7149859 C25.1641928,13.9014843 24.80852,14 24.4460321,14 L17.5539679,14 C17.19148,14 16.8358072,13.9014843 16.5249764,13.7149859 L12.9710085,11.5826051 C12.3685977,11.2211586 12,10.5701449 12,9.86761924 L12,9 L1.5,9 C0.671572875,9 1.01453063e-16,8.32842712 0,7.5 C-1.01453063e-16,6.67157288 0.671572875,6 1.5,6 L2,6 L2,5 C2,4.44771525 2.44771525,4 3,4 L3,0.5 C3,0.223857625 3.22385763,5.07265313e-17 3.5,0 C3.77614237,-5.07265313e-17 4,0.223857625 4,0.5 L4,4 C4.55228475,4 5,4.44771525 5,5 L5,6 L12.005,6 L12.0064818,5.97128221 C12.0580908,5.33141252 12.414937,4.75103782 12.9710085,4.41739491 L16.5249764,2.28501415 C16.8358072,2.09851567 17.19148,2 17.5539679,2 L24.4460321,2 C24.80852,2 25.1641928,2.09851567 25.4750236,2.28501415 L29.0289915,4.41739491 C29.5934099,4.75604592 29.952577,5.34889137 29.9956355,6.0001358 L37,6 L37,5 C37,4.44771525 37.4477153,4 38,4 L38,0.5 Z"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 14" id="droneGrab" fill="none" stroke="currentColor">
+        <path d="M5,13 L1,13 C1,7.66666667 3.33333333,3.66666667 8,1 L17.996238,1 C22.6654127,3 25,7 25,13 L21.0005587,13" stroke-width="2" stroke-linecap="round"></path>
+    </symbol>
+    <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 2" id="droneWing" fill="currentColor" stroke="none">
+        <path d="M13,2 C12.4477153,2 12,1.55228475 12,1 C12,0.44771525 12.4477153,0 13,0 C13.5522847,0 21,0.44771525 21,1 C21,1.55228475 13.5522847,2 13,2 Z"></path>
+        <path d="M8,2 C7.44771525,2 0,1.55228475 0,1 C0,0.44771525 7.44771525,0 8,0 C8.55228475,0 9,0.44771525 9,1 C9,1.55228475 8.55228475,2 8,2 Z"></path>
+    </symbol>
+    </svg>-->
+
+    <aside>
+        <div id="divId" style="width: 0%; height: 33.35vh; background-color: black; position: fixed; z-index: 4; top: 0;"></div>
+        <div id="divId" style="width: 0%; height: 33.35vh; background-color: black; position: fixed; z-index: 4; top: 33.35vh;"></div>
+        <div id="divId" style="width: 0%; height: 33.35vh; background-color: black; position: fixed; z-index: 4; top: 66.7vh;"></div>
+    </aside>
+   
+    
+        
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+        <script type="text/javascript" async src="./assets/js/animationAccueil.js"></script>
+        <script type="text/javascript" async src="./assets/js/formulaire.js"></script>
+    </body>
+</html>
